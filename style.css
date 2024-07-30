@@ -1,0 +1,89 @@
+
+h1, h2, p, a {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+h1 {
+    font-size: 100px;
+    color:#F7A8B8;
+    text-align: center;
+    text-shadow: 3px 3px white;
+}
+h2 {
+    font-size: 80px;
+    color: #F7A8B8;
+    text-shadow: 3px 3px white;
+}
+p { 
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px #F7A8B8;
+}
+body {
+
+    background-color: #F7A8B8;
+    overflow-y: hidden;
+    width: 99vw;
+    height: 100vh;
+    
+}
+
+#meow {
+    background-color:#6996AD;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: white;
+    width: calc(100% - 10px);
+    height: calc(100% - 100px);
+    position: static;
+    padding-left: 6px;
+}
+#nya {
+    align-items: center;
+}
+img {
+    height: 216px;
+    width: 382px;
+    border-style: solid;
+    border-color: #F7A8B8;
+    border-width: 6px;
+    border-radius: 20px;
+}
+#catimg {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 23px;
+    width: 394px;
+    height: 228px;
+}
+
+
+table {
+  width: 100%;
+  padding-top: 14px;
+}
+
+th {
+    padding-top: 1px;
+    width: 200px;
+    text-align: center;
+    border-color: white;
+    border-radius: 26px;
+    border-style: solid;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+th:hover {
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #f591a5;
+    
+
+}
+
+
